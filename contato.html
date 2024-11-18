@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="./stylesc.css" />
+    <link href="./img/logostivekkk.png" rel="icon">
+  </head>
+  <body>
+    <header>
+       <a href="./index.html">
+        
+        <img id="logo" src="img/logostivekkk.png" />
+
+      </a>
+
+      <nav>
+        <ul>
+          <a href="./index.html">
+            <li>Home</li>
+          </a>
+
+          <a href="./contato.html">
+            <li>Contato</li>
+          </a>
+
+          <a href="./fotos.html">
+            <li>Fotos</li>
+          </a>
+
+          <a href="./comentarios.html">
+            <li>Comentários</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="banner"></div>
+
+    <div id="container-form">
+      <form action="" id="form-ctt" onsubmit=" return showSubmitAlert()">
+        <h2 class="title-form">Formulário para contato</h2>
+        <br />
+        <fieldset class="field-pessoal">
+          <label for="nome">Nome</label>
+
+          <input
+            type="text"
+            id="nome"
+            name="nome_user"
+            placeholder="Insira seu nome..."
+          />
+
+          <br />
+          <br />
+
+          <label for="telefone">Telefone</label>
+
+          <input
+            type="number"
+            id="telefone"
+            name="tel_user"
+            placeholder="Telefone para contato..."
+          />
+
+          <br />
+          <br />
+
+          <label for="email">E-mail</label>
+
+          <input
+            type="email"
+            id="email"
+            name="email_user"
+            placeholder="E-mail para contato..."
+          />
+        </fieldset>
+
+        <br />
+
+        <fieldset class="field-contato">
+          <br />
+
+          <label for="mtvContato">Informe</label>
+
+          <br />
+
+          <textarea
+            name="mtv_user"
+            id="mtvContato"
+            placeholder="Descreva sua solicitação..."
+          ></textarea>
+        </fieldset>
+
+        <input type="submit" id="envio-form" />
+      </form>
+      <div id="informativo">
+        <p class="informativo-content">
+          Devido ao grande númerio de batchamados, solicitamos 3 dias úteis para
+          o retorno
+        </p>
+      </div>
+
+      <div id="map-rec">
+        <h3 class="title-map">
+          Conhece o Studio onde foi produzido THE BATMAN?
+        </h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2090203.3188128343!2d-2.605572694030131!3d52.525718518601174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876402f2fe350ad%3A0x6944cdcc4c412ec8!2sWarner%20Bros.%20Studio%20Tour%20London!5e0!3m2!1spt-BR!2sbr!4v1714312345777!5m2!1spt-BR!2sbr"
+          width="600"
+          height="450"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <figcaption class="legend-map">Explore e saiba mais no mapa</figcaption>
+      </div>
+    </div>
+
+    <footer id="footer-coment">
+      <img style="object-fit: contain" id="logo" src="img/logostivekkk.png" />
+      <span>Todos os direitos reservados &copy;</span>
+      <span>Desenvolvido por Matheus dos Santos</span>
+    </footer>
+  </body>
+  <script src="./contato.js"></script>
+</html>

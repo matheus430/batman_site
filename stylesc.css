@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+header {
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  width: 60%;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 19px;
+  transition: 0.5s;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+li:hover {
+  color: #d21617;
+}
+
+#logo {
+  width: 9rem;
+  height: auto;
+}
+
+#banner {
+  background-image: url("https://pbs.twimg.com/media/FBwJWeQXIAItfyH.jpg:large");
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+#container-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-top: 4rem;
+  text-shadow: 0.1rem 0.1rem 0.1rem #000000;
+  text-align: center;
+}
+
+#form-ctt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 0.1rem 0.1rem 1.25rem #f2f2f2;
+  width: 30%;
+  padding: 2rem;
+  margin-left: 3rem;
+  border-radius: 10% 10%;
+  transition: ease-in-out 0.6s;
+  background-image: linear-gradient(to bottom, #591c21, #d92525);
+  z-index: 1;
+}
+
+#form-ctt:hover {
+  scale: 1.1;
+}
+
+.field-pessoal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  width: 90%;
+  background-image: linear-gradient(to bottom, #d92525, #591c21);
+  border-radius: 5% 5%;
+  border: solid 0.2rem;
+}
+
+.field-contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  width: 90%;
+  background-image: linear-gradient(to top, #d92525, #591c21);
+  border-radius: 10% 10%;
+  border: solid 0.2rem;
+}
+
+.title-form {
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+  background-color: #d9252500;
+}
+
+label,
+input {
+  background-color: #d9252500;
+}
+
+#nome,
+#telefone,
+#email,
+#mtvContato {
+  font-weight: bold;
+  text-align: center;
+  background-color: #f2f2f2b6;
+}
+
+#mtvContato {
+  resize: none;
+}
+
+#envio-form {
+  margin: 1rem;
+  width: 5rem;
+  height: 2rem;
+  background-color: #400a0f;
+  border: none;
+  border-radius: 15% 15%;
+  transition: ease-in-out 0.4s;
+}
+
+#envio-form:hover {
+  background-image: linear-gradient(to bottom, #ff293b, #400a0f);
+  scale: 1.1;
+}
+
+#informativo {
+  display: flex;
+  justify-content: center;
+  background-color: #d9252500;
+}
+
+.informativo-content {
+  color: #f2f2f2;
+  width: 40%;
+  margin-top: 3rem;
+}
+
+#map-rec {
+  width: 90%;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  position: absolute;
+  gap: 1rem;
+  background-color: #d9252500;
+}
+
+#map-rec .title-map {
+  background-color: #d9252500;
+  width: 40%;
+}
+
+#map-rec .legend-map {
+  background-color: #d9252500;
+  width: 38%;
+}
+
+#footer-coment {
+  height: 15rem;
+  margin-left: 100px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
